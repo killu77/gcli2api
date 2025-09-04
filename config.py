@@ -494,4 +494,4 @@ def get_googleapis_proxy_url() -> str:
     TOML config key: googleapis_proxy_url
     Default: https://www.googleapis.com
     """
-    return str(get_config_value("googleapis_proxy_url", "https://www.googleapis.com", "GOOGLEAPIS_PROXY_URL"))://metadata.google.internal", "METADATA_SERVICE_URL"))
+    return str(get_config_value("googleapis_proxy_url", "https://www.googleapis.com", "GOOGLEAPIS_PROXY_URL"))
